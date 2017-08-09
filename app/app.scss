@@ -1,0 +1,51 @@
+.nav {
+  background-color: $black;
+  h2 {
+    font-size: $size-5;
+    font-weight: $weight-semibold;
+  }
+}
+
+a.nav-item {
+  color: $grey-lighter;
+  font-weight: $weight-normal;
+}
+
+.nav-toggle span {
+  background-color: $grey-lighter;
+}
+
+.modal {
+  .modal-content {
+    text-align: center;
+    h1 { font-weight: $weight-semibold; }
+  }
+}
+
+.panel {
+  width: 400px;
+  height: 100%;
+  border-right: 1px solid #dbdbdb;
+  .panel-block, .panel-tabs {
+    border-right: none;
+  }
+  .panel-tabs a {
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+  }
+}
+
+.message {
+  width: 100%;
+  .message-body {
+    height: 200px;
+  }
+}
+
+.is-horizontal {
+  padding-left: 20px;
+  h6 {
+    font-weight: $weight-semibold;
+  }
+}
